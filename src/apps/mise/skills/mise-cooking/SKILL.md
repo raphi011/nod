@@ -1,9 +1,9 @@
 ---
-name: mise
-description: Use when the user asks about their recipes, meal plan or shopping lists in mise, such as finding a recipe, planning a meal, adding to a list or checking what to buy. Otherwise do not use it.
+name: mise-cooking
+description: Use for any question about what to cook or eat, recipes, the meal plan or shopping lists when mise is connected, even if the user does not name mise.
 ---
 
-# mise
+# mise cooking
 
 Call the connected mise HTTP API; paths are relative to `/api/v1`. Errors are `{"error": {"code", "message", "fields"?}}`.
 

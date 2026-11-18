@@ -1,6 +1,6 @@
 {
   "$schema": "https://nod.n8n.io/docs/schemas/apps/v1/app.schema.json",
-  "displayName": "mise",
+  "displayName": "mise (recipes, meal plan, shopping lists)",
   "icon": "./io.n8n.nod/icon.svg",
   "categories": ["Food"],
   "connection": {
