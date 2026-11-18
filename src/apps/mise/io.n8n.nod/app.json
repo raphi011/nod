@@ -1,0 +1,22 @@
+{
+  "$schema": "https://nod.n8n.io/docs/schemas/apps/v1/app.schema.json",
+  "displayName": "mise",
+  "icon": "./io.n8n.nod/icon.svg",
+  "categories": ["Food"],
+  "connection": {
+    "type": "http",
+    "url": "https://cook.raphi011.dev/api/v1",
+    "authentication": ["bearer"]
+  },
+  "prompts": [
+    "Find a quick recipe with chickpeas.",
+    "Put pasta aglio e olio on the plan for Thursday and add its ingredients to the shopping list."
+  ],
+  "requirements": [
+    "A mise API token from Account, API tokens. Read and write is needed to change the plan or lists."
+  ],
+  "limitations": [
+    "A token acts as its member in one household and ends on a password reset or when revoked.",
+    "Recipe photos are not part of the API."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://nod.n8n.io/docs/schemas/apps/v1/contract.schema.json",
+  "type": "http",
+  "source": "https://github.com/raphi011/mise/blob/main/docs/api.md",
+  "request": { "method": "GET", "path": "me" },
+  "annotations": { "readOnlyHint": true },
+  "output": { "user": { "id": "synthetic-user" }, "scope": "read" }
+}
